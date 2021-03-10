@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Chart</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <h1>Chart</h1>
+    <center>
+    <canvas id="PieChart" style="height:600px; width:900px"></canvas>
+    </center>
+
+    <div id="Input-data">
+        <!-- pizza input -->
+        <div class="input-block">
+            <label for="visitor">Visitor</label>
+            <input type="text" name="visitor" class="visitor" placeholder="Jumlah Visitor" />
+        </div>
+
+        <!-- steak input -->
+        <div class="input-block">
+            <label for="kepuasan-visitor">Kepuasan Pelanggan</label>
+            <input type="text" name="kepuasan-visitor" class="kepuasan-visitor" placeholder="Kepuasan Visitor" />
+        </div>
+
+        <!-- Burger input -->
+        <div class="input-block">
+            <label for="penjualan-harian">Penjualan Harian</label>
+            <input type="text" name="penjualan-harian" class="penjualan-harian" placeholder="Penjualan Harian" />
+        </div>
+    </div>
+
+    <script src="assets/Chart.js" type="text/javascript"></script>
+    <script src="assets/script.js" type="text/javascript"></script>
+    
+</body>
+</html>
